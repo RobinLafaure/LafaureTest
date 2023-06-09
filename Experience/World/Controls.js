@@ -33,7 +33,6 @@ export default class Controls {
         //this.resources.on("ready", () => {
             this.setSmoothScroll();
             this.setScrollTrigger();
-            console.log("ca i va")
             
         //});
     }
@@ -112,7 +111,6 @@ export default class Controls {
 
             //Desktop
             "(min-width: 969px)": () => {
-                console.log("desktop");
 
                 this.room.scale.set(0.18, 0.18, 0.18);
 
@@ -131,7 +129,6 @@ export default class Controls {
                 this.rectLights[4].width = 0.1;
                 this.rectLights[4].height = 0.1;
 
-                console.log("controls");
 
                 //Section 1 -------------------------------------------------------------*/
                 this.firstMoveTimeline = new GSAP.timeline({
@@ -239,8 +236,6 @@ export default class Controls {
 
             //Mobile
             "(max-width: 968px)": () => {
-                console.log("mobile");
-
                 //Resets
 
                 this.room.scale.set(0.11, 0.11, 0.11);

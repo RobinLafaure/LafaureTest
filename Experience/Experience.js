@@ -32,7 +32,6 @@ export default class Experience {
         this.preloader = new Preloader();
 
         this.preloader.on("enablecontrols", () => {
-            console.log("foutrine")
 
             this.controls = new Controls();
         });
