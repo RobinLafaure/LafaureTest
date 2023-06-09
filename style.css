@@ -319,6 +319,114 @@ svg{
   color: var(--color-text);
 }
 
+.tech{
+  font-size: 20px;
+  margin: 5vh 0 5vh 0;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-text);
+  margin: 10px;
+}
+
+.table{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*margin: 22px 10px 22px 28px;*/
+  color: var(--color-text);
+  border: 0 0 1rem 0 solid var(--color-text);
+}
+
+.tableLang{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+.containerLang{
+  display: flex;
+  padding:7px;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  color: var(--color-text);
+}
+
+.container{
+  display: flex;
+  padding:7px;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-text);
+}
+
+h5{
+  color: var(--color-text);
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+}
+
+
+.box-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem 0 2rem 0;
+  
+}
+
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container .box{
+  height: 10rem;
+  width: 14rem;
+  border-radius: 1rem;
+  margin: 1rem 0 1rem 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.box-container .box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.2s ease;
+}
+
+.box-container .box:hover img{
+  transform: scale(1.2);
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+}
+
+li{
+  list-style: none;
+  margin: 22px 0 22px;
+}
+
 /* Fancy Decoration Part of Section */
 .section-title{
   position: relative;

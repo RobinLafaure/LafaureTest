@@ -36,13 +36,13 @@ export default class Room{
             }
 
 
-            // if(child.name === "Computer"){
-            //     child.children[2].material = new THREE.MeshBasicMaterial({
-            //         map: this.resources.items.screen,
+            if(child.name === "Computer"){
+                child.children[2].material = new THREE.MeshBasicMaterial({
+                    map: this.resources.items.screen,
                      
-            //     });
+                });
                  
-            // }
+            }
 
             if(child.name === "Table001"){
                 child.position.x = -5 ;
